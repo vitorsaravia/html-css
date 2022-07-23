@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+    background-color: saddlebrown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: bisque;
+    background-color: blueviolet;
+}
+
+h2{
+    color: cadetblue;
+}
+
+p{
+    text-align: justify;
+}

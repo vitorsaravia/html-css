@@ -6,27 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+         body{
+            background-image: url(img/pattern003.png);
+        }
         #container{
-        background: red url(img/target001.png) repeat fixed;
+        background-color: red;
+        background-image: url(img/target001.png);
+        background-repeat: repeat;
+        background-attachment: local;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 400px;
-        width: 700px;
-        padding: 20px;
-        position: relative;
+        min-height: 500px;
+        min-width: 500px;
         background-size: 100% 100%;
+        position: absolute;
+        padding: 20px;
+        margin: auto;
         }
         #conteudo{
-        background: green url(img/target001.png) no-repeat fixed center;
+        background-color: green;
+        background-image: url(img/target001.png);
+        background-repeat: no-repeat;
+        background-attachment: local;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 200px;
-        width: 200px;
-        position: absolute;
+        min-height: 200px;
+        min-width: 200px;
+        position: relative;
         background-size: 100% 100%;
-
+        margin: auto;
         }
     </style>
 </head>

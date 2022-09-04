@@ -13,12 +13,18 @@
             width: 400px;
             border-collapse: collapse;
         }
+        caption{
+          font-size: 1.5em;
+          font-weight: bold;
+          color: black ;
+          background-color: rgba(128, 128, 128, 0.651);
+        }
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
         thead, tfoot{
-            background-color: gray;
+            background-color: rgba(128, 128, 128, 0.897);
             color: white;
         }
         td:hover{
@@ -28,14 +34,20 @@
         .numero{
             text-align: right;
         }
+        .populacao{
+            width: 100px;
+        }
     </style>
 </head>
 <body>
     <table>
+      <caption>
+        população das unidades federativas
+      </caption>
         <thead>
           <tr>
-              <th>estado</th>
-              <th>população</th>
+              <th scope="col">estado</th>
+              <th scope="col" class="populacao">população</th>
           </tr>
         </thead>
         <tbody>
@@ -150,7 +162,7 @@
         </tbody>
         <tfoot>
           <tr>
-            <th>total da população</th>
+            <th scope="row">total da população</th>
             <td class="numero">216 980 548</td>
           </tr>
         </tfoot>

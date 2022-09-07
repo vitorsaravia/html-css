@@ -7,36 +7,51 @@
     <title>tabelas grandes</title>
     <style>
         body{
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
+
         caption{
           font-size: 1.5em;
           font-weight: bold;
           color: black ;
-          background-color: rgba(128, 128, 128, 0.651);
+          background-color: rgba(128, 128, 128, 0.658);
         }
+
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
+
+        thead{
+          position: sticky;
+          top: -1px;
+          background-color: rgb(128, 128, 128);
+        }
+
         thead, tfoot{
-            background-color: rgba(128, 128, 128, 0.897);
+            background-color: rgb(128, 128, 128);
             color: white;
         }
+
         tbody > tr:nth-child(odd){
           background-color: lightgray;
         }
+
         td:hover{
             background-color: rgba(5, 155, 255, 0.685);
             font-weight: bolder;
         }
+
         .numero{
             text-align: right;
         }
+
         .populacao{
             width: 100px;
         }
@@ -170,5 +185,10 @@
           </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quisquam laborum nostrum ex consequuntur? Neque nisi porro magnam, libero molestiae ab earum modi et aut, eius cumque, hic minima repudiandae? 
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, quod. Dolor, vero nesciunt voluptate repudiandae quae laboriosam omnis nobis repellat, accusamus quaerat cumque, voluptas sapiente inventore odio animi explicabo. Consectetur.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit animi, autem, laudantium dolorum nisi magni placeat ipsam ea corporis dolore eum ratione voluptas minus aliquid hic minima amet, nemo quod.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maiores accusamus libero, velit hic eius temporibus harum facere beatae dignissimos alias aut in corrupti ducimus sunt at esse inventore aperiam!
+    </p>
 </body>
 </html>
